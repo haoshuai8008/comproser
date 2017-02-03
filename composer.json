@@ -1,0 +1,14 @@
+{
+    "name": "haoshuai8008/comproser",
+    "description": "test project",
+    "type":"project",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "hoashuai",
+            "email": "77683175@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
