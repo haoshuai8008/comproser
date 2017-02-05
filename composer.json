@@ -10,5 +10,23 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "gregwar/captcha": "^1.1",
+        "intervention/image": "^2.3"
+    },
+    "autoload":{
+        "files":[
+            "core/functions.php"
+        ],
+        "psr-4":{
+            "core\\":"core",
+            "web\\":"web"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
 }
